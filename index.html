@@ -2,20 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Odin Recipes</h1>
+    </header>
     <div class="container">
         <div class="flexbox">
-            <iframe src="Sidebar.html" frameborder="0"></iframe>
+            <iframe src="layout/leftSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
         </div>
-        <div class="content">
-            <h1>Recipes</h1>
-            <a href="recipes/lasagna.html">Lasagna</a>
-            <a href="recipes/onionSoup.html">Onion Soup</a>
-            <a href="recipes/BananaCake.html">Banana Cake</a>
-        </div>
+        
+        <main class="content">
+            <section class="recipe-links">
+                <h2>Recipes</h2>
+                <a href="recipes/lasagna.html">Lasagna</a>
+                <a href="recipes/onionSoup.html">Onion Soup</a>
+                <a href="recipes/BananaCake.html">Banana Cake</a>
+            </section>
+        </main>
     </div>
 </body>
 </html>
