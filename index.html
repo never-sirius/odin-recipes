@@ -8,20 +8,27 @@
 </head>
 <body>
     <div class="container">
+        <iframe src="layout/header.html" frameborder="0" class="header-iframe"></iframe>
+
         <div class="flexbox">
             <iframe src="layout/leftSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
         </div>
-        <div class="content">
+        
+        <div class="flexbox">
+            <iframe src="layout/rightSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
+        </div>
+
+        <main class="content">
             <section class="recipe-links">
                 <h2>Recipes</h2>
                 <a href="recipes/lasagna.html">Lasagna</a>
                 <a href="recipes/onionSoup.html">Onion Soup</a>
                 <a href="recipes/BananaCake.html">Banana Cake</a>
             </section>
-        </div>
-        <div class="flexbox">
-            <iframe src="layout/rightSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
-        </div>
+        </main>
+
+        <iframe src="layout/footer.html" frameborder="0" class="footer-iframe"></iframe>
     </div>
 </body>
 </html>
+

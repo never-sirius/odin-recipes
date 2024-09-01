@@ -1,6 +1,6 @@
 .sidebar {
     background-color: #FFFACD; 
-    padding: 20px;
+    padding: 20px 15px; /* Top & Bottom padding of 20px, Left & Right padding of 15px */
     border-radius: 15px; 
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
     width: 300px;
@@ -10,17 +10,17 @@
 .sidebar h2 {
     font-size: 1.6em; 
     color: #FFC0CB; 
-    margin-bottom: 20px; 
+    margin-bottom: 15px; /* Slightly reduce the margin for a tighter look */
 }
 
 .sidebar ul {
     list-style-type: none;
     padding: 0; 
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduce margin for consistency */
 }
 
 .sidebar ul li {
-    margin-bottom: 15px; 
+    margin-bottom: 12px; /* Adjust the spacing between list items */
 }
 
 .sidebar ul li a {
@@ -37,7 +37,7 @@
 
 .sidebar input[type="text"] {
     width: 100%;
-    padding: 12px; 
+    padding: 10px; /* Slightly reduce padding for a cleaner input field */
     margin-top: 15px;
     border: 1px solid #E6E6FA;
     border-radius: 5px;
@@ -45,7 +45,17 @@
 }
 
 .sidebar p {
-    margin-top: 20px; 
+    margin-top: 15px; /* Tighten up space above paragraphs */
     color: #555; 
     font-size: 1.1em; 
+}
+
+/* Image styling */
+.sidebar img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px; /* Adjust margin to match other elements */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+    border: 3px solid #FFC0CB; 
 }
