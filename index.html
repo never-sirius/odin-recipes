@@ -8,27 +8,46 @@
 </head>
 <body>
     <div class="container">
-        <iframe src="layout/header.html" frameborder="0" class="header-iframe"></iframe>
 
-        <div class="flexbox">
-            <iframe src="layout/leftSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
+        <!-- Header Section -->
+        <div class="header">
+            <iframe src="layout/header.html" frameborder="0" class="header-iframe"></iframe>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content">
+
+            <!-- Left Sidebar Section -->
+            <div class="left-sidebar">
+                <iframe src="layout/leftSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
+            </div>
+            
+            <!-- Recipe Content Section -->
+            <div class="recipe-content">
+                <main class="content">
+                    <section class="recipe-links">
+                        <h2>Recipes</h2>
+                        <a href="recipes/lasagna.html">Lasagna</a>
+                        <a href="recipes/onionSoup.html">Onion Soup</a>
+                        <a href="recipes/BananaCake.html">Banana Cake</a>
+                    </section>
+                </main>
+            </div>
+
+            <!-- Right Sidebar Section -->
+            <div class="right-sidebar">
+                <iframe src="layout/rightSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
+            </div>
+
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <iframe src="layout/footer.html" frameborder="0" class="footer-iframe"></iframe>
         </div>
         
-        <div class="flexbox">
-            <iframe src="layout/rightSidebar.html" frameborder="0" class="sidebar-iframe"></iframe>
-        </div>
-
-        <main class="content">
-            <section class="recipe-links">
-                <h2>Recipes</h2>
-                <a href="recipes/lasagna.html">Lasagna</a>
-                <a href="recipes/onionSoup.html">Onion Soup</a>
-                <a href="recipes/BananaCake.html">Banana Cake</a>
-            </section>
-        </main>
-
-        <iframe src="layout/footer.html" frameborder="0" class="footer-iframe"></iframe>
     </div>
 </body>
 </html>
+
 
