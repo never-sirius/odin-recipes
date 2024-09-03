@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif; 
     line-height: 1.6;
     padding: 20px;
-    max-width: 1200px; /* Adjusted for wider layout */
+    max-width: 1200px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: top center;
@@ -70,7 +70,6 @@ p {
     color: #555;
 }
 
-
 ul, ol {
     margin: 20px 0;
     padding-left: 20px;
@@ -116,32 +115,35 @@ li {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    flex-wrap: wrap; 
 }
 
 .flexbox {
-    flex: 0 0 250px; 
+    flex: 1; 
+    min-width: 250px;
     margin: 0 15px; 
     background-color: #FFFACD; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 10px;
-    height: 100vh; 
+    height: auto;
     position: sticky;
     top: 20px; 
 }
 
 .flexbox iframe {
     width: 100%;
-    height: 100%;
+    height: auto;
     border: none;
 }
 
 .content {
-    flex: 1;
+    flex: 2; 
     padding: 20px;
     background-color: #FFFFFF; 
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 300px; 
 }
 
 @media (max-width: 768px) {
